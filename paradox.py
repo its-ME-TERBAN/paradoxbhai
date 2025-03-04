@@ -8,7 +8,7 @@ from telebot import types
 import threading
 
 # Using your provided Telegram bot token and owner ID
-TELEGRAM_TOKEN = '7686606251:AAHYYNhgtWrXQ5gprlfOt76mttiA4VzQu70'
+TELEGRAM_TOKEN = '7686606251:AAGLngp85Rgw1p0yWq4g56XVqNDjvqtdxHI'
 OWNER_ID = '1604629264'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
