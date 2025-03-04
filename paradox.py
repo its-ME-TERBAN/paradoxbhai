@@ -175,7 +175,7 @@ def confirm_attack(call):
             time.sleep(1)
         
         # Step 4: Execute the Binary Command
-        command = f"./LEGEND {ip} {port} {duration}"
+        command = f"./bgmi {ip} {port} {duration} {9} {600}"
         try:
             result = subprocess.run(shlex.split(command), check=True, capture_output=True, text=True)
             output = html.escape(result.stdout)
